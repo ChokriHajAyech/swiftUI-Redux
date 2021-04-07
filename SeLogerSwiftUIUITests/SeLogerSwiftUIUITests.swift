@@ -1,9 +1,3 @@
-//
-//  SeLogerSwiftUIUITests.swift
-//  SeLogerSwiftUIUITests
-//
-//  Created by Mobiapps on 05/03/2021.
-//
 
 import XCTest
 

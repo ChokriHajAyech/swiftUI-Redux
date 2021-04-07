@@ -1,9 +1,3 @@
-//
-//  HousingCell.swift
-//  SeLogerSwiftUI
-//
-//  Created by Mobiapps on 23/03/2021.
-//
 
 import SwiftUI
 

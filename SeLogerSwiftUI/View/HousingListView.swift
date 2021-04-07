@@ -1,9 +1,3 @@
-//
-//  HouwingListView.swift
-//  SeLogerSwiftUI
-//
-//  Created by Mobiapps on 09/03/2021.
-//
 
 import SwiftUI
 

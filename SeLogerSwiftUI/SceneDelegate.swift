@@ -1,9 +1,3 @@
-//
-//  SceneDelegate.swift
-//  SeLogerSwiftUI
-//
-//  Created by Mobiapps on 05/03/2021.
-//
 
 import UIKit
 import SwiftUI
