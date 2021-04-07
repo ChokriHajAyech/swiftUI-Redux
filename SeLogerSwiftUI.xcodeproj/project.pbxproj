@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8027481925F8E876001E829F /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8027481825F8E876001E829F /* Store.swift */; };
+		8027486325F90FFA001E829F /* Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8027486225F90FFA001E829F /* Alias.swift */; };
+		8027487B25FA25C8001E829F /* HousingRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8027487725FA25C7001E829F /* HousingRequest.swift */; };
+		8027487C25FA25C8001E829F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8027487825FA25C7001E829F /* Constants.swift */; };
+		8027487D25FA25C8001E829F /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8027487925FA25C7001E829F /* APIRequest.swift */; };
+		8027487E25FA25C8001E829F /* HousingListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8027487A25FA25C8001E829F /* HousingListRequest.swift */; };
+		8027488325FA25D5001E829F /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8027488225FA25D4001E829F /* APIClient.swift */; };
+		8027488825FA264A001E829F /* ApiResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8027488725FA264A001E829F /* ApiResult.swift */; };
+		8027488E25FA266E001E829F /* ApiErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8027488D25FA266E001E829F /* ApiErrorModel.swift */; };
+		802748AD25FA35B0001E829F /* HousingApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802748AC25FA35B0001E829F /* HousingApi.swift */; };
+		802748B325FA35F9001E829F /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802748B125FA35F8001E829F /* HomeModel.swift */; };
+		802748B425FA35F9001E829F /* HousingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802748B225FA35F8001E829F /* HousingModel.swift */; };
+		802748BA25FA3A8D001E829F /* HousingListingsMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802748B925FA3A8D001E829F /* HousingListingsMiddleware.swift */; };
+		802748C825FA5F42001E829F /* SettingInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802748C725FA5F42001E829F /* SettingInfos.swift */; };
+		802748CD25FA6CDE001E829F /* HousingMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802748CC25FA6CDE001E829F /* HousingMapper.swift */; };
+		802748D225FA7960001E829F /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802748D125FA7960001E829F /* Mapper.swift */; };
+		802748D725FA7C29001E829F /* HousingDataCellMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802748D625FA7C29001E829F /* HousingDataCellMapper.swift */; };
+		807A496B26020E3C00696BED /* ImageLoaderApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A496A26020E3C00696BED /* ImageLoaderApi.swift */; };
+		807A497026020E4B00696BED /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A496F26020E4B00696BED /* URLImage.swift */; };
+		8081D38B25F7B03100A0521F /* HousingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081D38A25F7B03100A0521F /* HousingListView.swift */; };
+		8081D39A25F7B10300A0521F /* HousingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081D39925F7B10300A0521F /* HousingList.swift */; };
+		8081D3A425F7B16100A0521F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081D3A325F7B16100A0521F /* AppState.swift */; };
+		8081D3B225F7B1B200A0521F /* AppActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081D3B125F7B1B200A0521F /* AppActions.swift */; };
+		8081D3B725F7B20700A0521F /* HousingDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081D3B625F7B20700A0521F /* HousingDetails.swift */; };
+		8081D3C325F7B24600A0521F /* Reducers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081D3C225F7B24600A0521F /* Reducers.swift */; };
+		80A463D2260A0BFE0057437B /* HousingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A463D1260A0BFE0057437B /* HousingCell.swift */; };
+		80BDBF6925F2E4F3005CDAC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BDBF6825F2E4F3005CDAC3 /* AppDelegate.swift */; };
+		80BDBF6B25F2E4F3005CDAC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BDBF6A25F2E4F3005CDAC3 /* SceneDelegate.swift */; };
+		80BDBF6D25F2E4F3005CDAC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BDBF6C25F2E4F3005CDAC3 /* ContentView.swift */; };
+		80BDBF7025F2E4F3005CDAC3 /* SeLogerSwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80BDBF6E25F2E4F3005CDAC3 /* SeLogerSwiftUI.xcdatamodeld */; };
+		80BDBF7225F2E4F6005CDAC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80BDBF7125F2E4F6005CDAC3 /* Assets.xcassets */; };
+		80BDBF7525F2E4F6005CDAC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80BDBF7425F2E4F6005CDAC3 /* Preview Assets.xcassets */; };
+		80BDBF7825F2E4F6005CDAC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80BDBF7625F2E4F6005CDAC3 /* LaunchScreen.storyboard */; };
+		80BDBF8325F2E4F6005CDAC3 /* SeLogerSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BDBF8225F2E4F6005CDAC3 /* SeLogerSwiftUITests.swift */; };
+		80BDBF8E25F2E4F6005CDAC3 /* SeLogerSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BDBF8D25F2E4F6005CDAC3 /* SeLogerSwiftUIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80BDBF7F25F2E4F6005CDAC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80BDBF5D25F2E4F3005CDAC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80BDBF6425F2E4F3005CDAC3;
+			remoteInfo = SeLogerSwiftUI;
+		};
+		80BDBF8A25F2E4F6005CDAC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80BDBF5D25F2E4F3005CDAC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80BDBF6425F2E4F3005CDAC3;
+			remoteInfo = SeLogerSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8027481825F8E876001E829F /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		8027486225F90FFA001E829F /* Alias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alias.swift; sourceTree = "<group>"; };
+		8027487725FA25C7001E829F /* HousingRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HousingRequest.swift; sourceTree = "<group>"; };
+		8027487825FA25C7001E829F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8027487925FA25C7001E829F /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		8027487A25FA25C8001E829F /* HousingListRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HousingListRequest.swift; sourceTree = "<group>"; };
+		8027488225FA25D4001E829F /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		8027488725FA264A001E829F /* ApiResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiResult.swift; sourceTree = "<group>"; };
+		8027488D25FA266E001E829F /* ApiErrorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiErrorModel.swift; sourceTree = "<group>"; };
+		802748AC25FA35B0001E829F /* HousingApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HousingApi.swift; sourceTree = "<group>"; };
+		802748B125FA35F8001E829F /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		802748B225FA35F8001E829F /* HousingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HousingModel.swift; sourceTree = "<group>"; };
+		802748B925FA3A8D001E829F /* HousingListingsMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousingListingsMiddleware.swift; sourceTree = "<group>"; };
+		802748C725FA5F42001E829F /* SettingInfos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingInfos.swift; sourceTree = "<group>"; };
+		802748CC25FA6CDE001E829F /* HousingMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HousingMapper.swift; sourceTree = "<group>"; };
+		802748D125FA7960001E829F /* Mapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
+		802748D625FA7C29001E829F /* HousingDataCellMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HousingDataCellMapper.swift; sourceTree = "<group>"; };
+		807A496A26020E3C00696BED /* ImageLoaderApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoaderApi.swift; sourceTree = "<group>"; };
+		807A496F26020E4B00696BED /* URLImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
+		8081D38A25F7B03100A0521F /* HousingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousingListView.swift; sourceTree = "<group>"; };
+		8081D39925F7B10300A0521F /* HousingList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HousingList.swift; sourceTree = "<group>"; };
+		8081D3A325F7B16100A0521F /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		8081D3B125F7B1B200A0521F /* AppActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppActions.swift; sourceTree = "<group>"; };
+		8081D3B625F7B20700A0521F /* HousingDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HousingDetails.swift; sourceTree = "<group>"; };
+		8081D3C225F7B24600A0521F /* Reducers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reducers.swift; sourceTree = "<group>"; };
+		80A463D1260A0BFE0057437B /* HousingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousingCell.swift; sourceTree = "<group>"; };
+		80BDBF6525F2E4F3005CDAC3 /* SeLogerSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeLogerSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80BDBF6825F2E4F3005CDAC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80BDBF6A25F2E4F3005CDAC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		80BDBF6C25F2E4F3005CDAC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		80BDBF6F25F2E4F3005CDAC3 /* SeLogerSwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SeLogerSwiftUI.xcdatamodel; sourceTree = "<group>"; };
+		80BDBF7125F2E4F6005CDAC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80BDBF7425F2E4F6005CDAC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		80BDBF7725F2E4F6005CDAC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80BDBF7925F2E4F6005CDAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80BDBF7E25F2E4F6005CDAC3 /* SeLogerSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeLogerSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80BDBF8225F2E4F6005CDAC3 /* SeLogerSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeLogerSwiftUITests.swift; sourceTree = "<group>"; };
+		80BDBF8425F2E4F6005CDAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80BDBF8925F2E4F6005CDAC3 /* SeLogerSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeLogerSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80BDBF8D25F2E4F6005CDAC3 /* SeLogerSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeLogerSwiftUIUITests.swift; sourceTree = "<group>"; };
+		80BDBF8F25F2E4F6005CDAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80BDBF6225F2E4F3005CDAC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BDBF7B25F2E4F6005CDAC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BDBF8625F2E4F6005CDAC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8027486125F90FEC001E829F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8027486225F90FFA001E829F /* Alias.swift */,
+				802748D125FA7960001E829F /* Mapper.swift */,
+				802748CC25FA6CDE001E829F /* HousingMapper.swift */,
+				802748D625FA7C29001E829F /* HousingDataCellMapper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		8027486725FA2322001E829F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				807A496A26020E3C00696BED /* ImageLoaderApi.swift */,
+				802748AC25FA35B0001E829F /* HousingApi.swift */,
+				8027488225FA25D4001E829F /* APIClient.swift */,
+				8027487625FA25AB001E829F /* APIRequest */,
+				8027488C25FA264E001E829F /* Entities */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		8027487625FA25AB001E829F /* APIRequest */ = {
+			isa = PBXGroup;
+			children = (
+				8027487825FA25C7001E829F /* Constants.swift */,
+				8027487925FA25C7001E829F /* APIRequest.swift */,
+				8027487A25FA25C8001E829F /* HousingListRequest.swift */,
+				8027487725FA25C7001E829F /* HousingRequest.swift */,
+			);
+			path = APIRequest;
+			sourceTree = "<group>";
+		};
+		8027488C25FA264E001E829F /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				802748B125FA35F8001E829F /* HomeModel.swift */,
+				802748B225FA35F8001E829F /* HousingModel.swift */,
+				8027488D25FA266E001E829F /* ApiErrorModel.swift */,
+				8027488725FA264A001E829F /* ApiResult.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		802748B825FA3A5A001E829F /* Middleware */ = {
+			isa = PBXGroup;
+			children = (
+				802748B925FA3A8D001E829F /* HousingListingsMiddleware.swift */,
+			);
+			path = Middleware;
+			sourceTree = "<group>";
+		};
+		8081D38925F7B02500A0521F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				80A463D0260A0BEC0057437B /* Cell */,
+				80BDBF6C25F2E4F3005CDAC3 /* ContentView.swift */,
+				807A496F26020E4B00696BED /* URLImage.swift */,
+				8081D38A25F7B03100A0521F /* HousingListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8081D39525F7B0C000A0521F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8081D3B625F7B20700A0521F /* HousingDetails.swift */,
+				8081D39925F7B10300A0521F /* HousingList.swift */,
+				802748C725FA5F42001E829F /* SettingInfos.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8081D3A125F7B13E00A0521F /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				8081D3B125F7B1B200A0521F /* AppActions.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		8081D3A225F7B14900A0521F /* State */ = {
+			isa = PBXGroup;
+			children = (
+				8081D3A325F7B16100A0521F /* AppState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		8081D3B025F7B1A000A0521F /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				8027481825F8E876001E829F /* Store.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		8081D3C125F7B23800A0521F /* Reducer */ = {
+			isa = PBXGroup;
+			children = (
+				8081D3C225F7B24600A0521F /* Reducers.swift */,
+			);
+			path = Reducer;
+			sourceTree = "<group>";
+		};
+		80A463D0260A0BEC0057437B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				80A463D1260A0BFE0057437B /* HousingCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		80BDBF5C25F2E4F3005CDAC3 = {
+			isa = PBXGroup;
+			children = (
+				80BDBF6725F2E4F3005CDAC3 /* SeLogerSwiftUI */,
+				80BDBF8125F2E4F6005CDAC3 /* SeLogerSwiftUITests */,
+				80BDBF8C25F2E4F6005CDAC3 /* SeLogerSwiftUIUITests */,
+				80BDBF6625F2E4F3005CDAC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80BDBF6625F2E4F3005CDAC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80BDBF6525F2E4F3005CDAC3 /* SeLogerSwiftUI.app */,
+				80BDBF7E25F2E4F6005CDAC3 /* SeLogerSwiftUITests.xctest */,
+				80BDBF8925F2E4F6005CDAC3 /* SeLogerSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80BDBF6725F2E4F3005CDAC3 /* SeLogerSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				8081D39525F7B0C000A0521F /* Model */,
+				8027486125F90FEC001E829F /* Helper */,
+				8027486725FA2322001E829F /* API */,
+				802748B825FA3A5A001E829F /* Middleware */,
+				8081D3B025F7B1A000A0521F /* Store */,
+				8081D3C125F7B23800A0521F /* Reducer */,
+				8081D3A225F7B14900A0521F /* State */,
+				8081D3A125F7B13E00A0521F /* Actions */,
+				8081D38925F7B02500A0521F /* View */,
+				80BDBF6825F2E4F3005CDAC3 /* AppDelegate.swift */,
+				80BDBF6A25F2E4F3005CDAC3 /* SceneDelegate.swift */,
+				80BDBF7125F2E4F6005CDAC3 /* Assets.xcassets */,
+				80BDBF7625F2E4F6005CDAC3 /* LaunchScreen.storyboard */,
+				80BDBF7925F2E4F6005CDAC3 /* Info.plist */,
+				80BDBF6E25F2E4F3005CDAC3 /* SeLogerSwiftUI.xcdatamodeld */,
+				80BDBF7325F2E4F6005CDAC3 /* Preview Content */,
+			);
+			path = SeLogerSwiftUI;
+			sourceTree = "<group>";
+		};
+		80BDBF7325F2E4F6005CDAC3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				80BDBF7425F2E4F6005CDAC3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		80BDBF8125F2E4F6005CDAC3 /* SeLogerSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80BDBF8225F2E4F6005CDAC3 /* SeLogerSwiftUITests.swift */,
+				80BDBF8425F2E4F6005CDAC3 /* Info.plist */,
+			);
+			path = SeLogerSwiftUITests;
+			sourceTree = "<group>";
+		};
+		80BDBF8C25F2E4F6005CDAC3 /* SeLogerSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80BDBF8D25F2E4F6005CDAC3 /* SeLogerSwiftUIUITests.swift */,
+				80BDBF8F25F2E4F6005CDAC3 /* Info.plist */,
+			);
+			path = SeLogerSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80BDBF6425F2E4F3005CDAC3 /* SeLogerSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80BDBF9225F2E4F6005CDAC3 /* Build configuration list for PBXNativeTarget "SeLogerSwiftUI" */;
+			buildPhases = (
+				80BDBF6125F2E4F3005CDAC3 /* Sources */,
+				80BDBF6225F2E4F3005CDAC3 /* Frameworks */,
+				80BDBF6325F2E4F3005CDAC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeLogerSwiftUI;
+			productName = SeLogerSwiftUI;
+			productReference = 80BDBF6525F2E4F3005CDAC3 /* SeLogerSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80BDBF7D25F2E4F6005CDAC3 /* SeLogerSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80BDBF9525F2E4F6005CDAC3 /* Build configuration list for PBXNativeTarget "SeLogerSwiftUITests" */;
+			buildPhases = (
+				80BDBF7A25F2E4F6005CDAC3 /* Sources */,
+				80BDBF7B25F2E4F6005CDAC3 /* Frameworks */,
+				80BDBF7C25F2E4F6005CDAC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80BDBF8025F2E4F6005CDAC3 /* PBXTargetDependency */,
+			);
+			name = SeLogerSwiftUITests;
+			productName = SeLogerSwiftUITests;
+			productReference = 80BDBF7E25F2E4F6005CDAC3 /* SeLogerSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80BDBF8825F2E4F6005CDAC3 /* SeLogerSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80BDBF9825F2E4F6005CDAC3 /* Build configuration list for PBXNativeTarget "SeLogerSwiftUIUITests" */;
+			buildPhases = (
+				80BDBF8525F2E4F6005CDAC3 /* Sources */,
+				80BDBF8625F2E4F6005CDAC3 /* Frameworks */,
+				80BDBF8725F2E4F6005CDAC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80BDBF8B25F2E4F6005CDAC3 /* PBXTargetDependency */,
+			);
+			name = SeLogerSwiftUIUITests;
+			productName = SeLogerSwiftUIUITests;
+			productReference = 80BDBF8925F2E4F6005CDAC3 /* SeLogerSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80BDBF5D25F2E4F3005CDAC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					80BDBF6425F2E4F3005CDAC3 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					80BDBF7D25F2E4F6005CDAC3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 80BDBF6425F2E4F3005CDAC3;
+					};
+					80BDBF8825F2E4F6005CDAC3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 80BDBF6425F2E4F3005CDAC3;
+					};
+				};
+			};
+			buildConfigurationList = 80BDBF6025F2E4F3005CDAC3 /* Build configuration list for PBXProject "SeLogerSwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80BDBF5C25F2E4F3005CDAC3;
+			productRefGroup = 80BDBF6625F2E4F3005CDAC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80BDBF6425F2E4F3005CDAC3 /* SeLogerSwiftUI */,
+				80BDBF7D25F2E4F6005CDAC3 /* SeLogerSwiftUITests */,
+				80BDBF8825F2E4F6005CDAC3 /* SeLogerSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80BDBF6325F2E4F3005CDAC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80BDBF7825F2E4F6005CDAC3 /* LaunchScreen.storyboard in Resources */,
+				80BDBF7525F2E4F6005CDAC3 /* Preview Assets.xcassets in Resources */,
+				80BDBF7225F2E4F6005CDAC3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BDBF7C25F2E4F6005CDAC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BDBF8725F2E4F6005CDAC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80BDBF6125F2E4F3005CDAC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80BDBF6925F2E4F3005CDAC3 /* AppDelegate.swift in Sources */,
+				8027488325FA25D5001E829F /* APIClient.swift in Sources */,
+				802748C825FA5F42001E829F /* SettingInfos.swift in Sources */,
+				802748BA25FA3A8D001E829F /* HousingListingsMiddleware.swift in Sources */,
+				802748AD25FA35B0001E829F /* HousingApi.swift in Sources */,
+				8081D38B25F7B03100A0521F /* HousingListView.swift in Sources */,
+				802748D225FA7960001E829F /* Mapper.swift in Sources */,
+				8027488825FA264A001E829F /* ApiResult.swift in Sources */,
+				8027487B25FA25C8001E829F /* HousingRequest.swift in Sources */,
+				8081D3B725F7B20700A0521F /* HousingDetails.swift in Sources */,
+				8081D3A425F7B16100A0521F /* AppState.swift in Sources */,
+				8027487E25FA25C8001E829F /* HousingListRequest.swift in Sources */,
+				8027486325F90FFA001E829F /* Alias.swift in Sources */,
+				80BDBF6B25F2E4F3005CDAC3 /* SceneDelegate.swift in Sources */,
+				807A497026020E4B00696BED /* URLImage.swift in Sources */,
+				807A496B26020E3C00696BED /* ImageLoaderApi.swift in Sources */,
+				8081D39A25F7B10300A0521F /* HousingList.swift in Sources */,
+				8027481925F8E876001E829F /* Store.swift in Sources */,
+				8027488E25FA266E001E829F /* ApiErrorModel.swift in Sources */,
+				8081D3B225F7B1B200A0521F /* AppActions.swift in Sources */,
+				80BDBF6D25F2E4F3005CDAC3 /* ContentView.swift in Sources */,
+				8027487C25FA25C8001E829F /* Constants.swift in Sources */,
+				802748B325FA35F9001E829F /* HomeModel.swift in Sources */,
+				80A463D2260A0BFE0057437B /* HousingCell.swift in Sources */,
+				802748D725FA7C29001E829F /* HousingDataCellMapper.swift in Sources */,
+				8081D3C325F7B24600A0521F /* Reducers.swift in Sources */,
+				802748CD25FA6CDE001E829F /* HousingMapper.swift in Sources */,
+				8027487D25FA25C8001E829F /* APIRequest.swift in Sources */,
+				80BDBF7025F2E4F3005CDAC3 /* SeLogerSwiftUI.xcdatamodeld in Sources */,
+				802748B425FA35F9001E829F /* HousingModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BDBF7A25F2E4F6005CDAC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80BDBF8325F2E4F6005CDAC3 /* SeLogerSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BDBF8525F2E4F6005CDAC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80BDBF8E25F2E4F6005CDAC3 /* SeLogerSwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80BDBF8025F2E4F6005CDAC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80BDBF6425F2E4F3005CDAC3 /* SeLogerSwiftUI */;
+			targetProxy = 80BDBF7F25F2E4F6005CDAC3 /* PBXContainerItemProxy */;
+		};
+		80BDBF8B25F2E4F6005CDAC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80BDBF6425F2E4F3005CDAC3 /* SeLogerSwiftUI */;
+			targetProxy = 80BDBF8A25F2E4F6005CDAC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80BDBF7625F2E4F6005CDAC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80BDBF7725F2E4F6005CDAC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80BDBF9025F2E4F6005CDAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80BDBF9125F2E4F6005CDAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80BDBF9325F2E4F6005CDAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SeLogerSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 8N2643DJ6X;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SeLogerSwiftUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayech.free.SeLogerSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80BDBF9425F2E4F6005CDAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SeLogerSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 8N2643DJ6X;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SeLogerSwiftUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayech.free.SeLogerSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80BDBF9625F2E4F6005CDAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8N2643DJ6X;
+				INFOPLIST_FILE = SeLogerSwiftUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayech.free.SeLogerSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeLogerSwiftUI.app/SeLogerSwiftUI";
+			};
+			name = Debug;
+		};
+		80BDBF9725F2E4F6005CDAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8N2643DJ6X;
+				INFOPLIST_FILE = SeLogerSwiftUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayech.free.SeLogerSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeLogerSwiftUI.app/SeLogerSwiftUI";
+			};
+			name = Release;
+		};
+		80BDBF9925F2E4F6005CDAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8N2643DJ6X;
+				INFOPLIST_FILE = SeLogerSwiftUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayech.free.SeLogerSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeLogerSwiftUI;
+			};
+			name = Debug;
+		};
+		80BDBF9A25F2E4F6005CDAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8N2643DJ6X;
+				INFOPLIST_FILE = SeLogerSwiftUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayech.free.SeLogerSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeLogerSwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80BDBF6025F2E4F3005CDAC3 /* Build configuration list for PBXProject "SeLogerSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80BDBF9025F2E4F6005CDAC3 /* Debug */,
+				80BDBF9125F2E4F6005CDAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80BDBF9225F2E4F6005CDAC3 /* Build configuration list for PBXNativeTarget "SeLogerSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80BDBF9325F2E4F6005CDAC3 /* Debug */,
+				80BDBF9425F2E4F6005CDAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80BDBF9525F2E4F6005CDAC3 /* Build configuration list for PBXNativeTarget "SeLogerSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80BDBF9625F2E4F6005CDAC3 /* Debug */,
+				80BDBF9725F2E4F6005CDAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80BDBF9825F2E4F6005CDAC3 /* Build configuration list for PBXNativeTarget "SeLogerSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80BDBF9925F2E4F6005CDAC3 /* Debug */,
+				80BDBF9A25F2E4F6005CDAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		80BDBF6E25F2E4F3005CDAC3 /* SeLogerSwiftUI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				80BDBF6F25F2E4F3005CDAC3 /* SeLogerSwiftUI.xcdatamodel */,
+			);
+			currentVersion = 80BDBF6F25F2E4F3005CDAC3 /* SeLogerSwiftUI.xcdatamodel */;
+			path = SeLogerSwiftUI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 80BDBF5D25F2E4F3005CDAC3 /* Project object */;
+}
